@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-     
+     <p>Successfully Renders</p>
     </>
   )
 }
