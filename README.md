@@ -7,7 +7,7 @@ This starter repo only has CSS styling added to the empty React project.
 After cloning run `npm install` to install dependencies.
 
 
-####🖥️ Running the Application on a Server
+🖥️ Running the Application on a Server
 
 Run the following command in your terminal: `npm run dev`.
   - After executing the command, the terminal will display the local server address (including the port number), e.g., http://localhost:5173.
