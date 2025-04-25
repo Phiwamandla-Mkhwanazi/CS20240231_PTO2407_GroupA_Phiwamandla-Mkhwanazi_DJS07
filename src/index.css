@@ -59,25 +59,34 @@ main {
   cursor: pointer;
 }
 
+/* Updated meme container styles */
 .meme {
   position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  aspect-ratio: 1 / 1; /* Maintains a square-ish ratio */
+  overflow: hidden;
 }
 
 .meme--image {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 3px;
+  display: block;
 }
 
 .meme--text {
   position: absolute;
-  width: 80%;
+  width: 90%;
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
-  margin: 15px 0;
+  margin: 0;
   padding: 0 5px;
-  font-family: impact, sans-serif;
-  font-size: 2em;
+  font-family: Impact, sans-serif;
+  font-size: 5vw;
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
@@ -91,12 +100,14 @@ main {
       0 -2px 0 #000,
       -2px 0 0 #000,
       2px 2px 5px #000;
-}
-
-.bottom {
-  bottom: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .top {
-  top: 0;
+  top: 5%;
+}
+
+.bottom {
+  bottom: 5%;
 }
